@@ -146,8 +146,8 @@ logo = (f'''
        \033[1;96m   ╦╔═╔═╗╦═╗╔═╗╔╗╔   ╔╗ ╔═╗╔═╗╔═╗╔╦╗
        \033[1;96m   ╠╩╗╠═╣╠╦╝║╣ ║║║───╠╩╗║ ║║ ║╚═╗ ║ 
        \033[1;97m   ╩ ╩╩ ╩╩╚═╚═╝╝╚╝   ╚═╝╚═╝╚═╝╚═╝ ╩  {c}「{red}V•2{c}」{r} 
-        {r} 「OWNER    : ALEXANDER  AXL MONTREAL」{r} 
-        {r} 「FACEBOOK : ALEXANDER  AXL MONTREAL」{r} 
+        {r} 「OWNER    : Hans 」{r} 
+        {r} 「FACEBOOK : HANS URLUV ONE  」{r} 
         {r} 「TOOLTYPE : FACEBOOK BOOST PHILIPPINE」{r}
     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ \n''')
 
@@ -253,7 +253,7 @@ def get_user_location():
 user_id = str(os.geteuid())
 user_name = get_user_name()
 uuid = f"{user_id}BERSBOOATING{user_id}"
-key = f"{user_name}-KAREN-BOOST-{uuid}"
+key = f"{user_name}-ICON-BOOST-{uuid}"
 
 def get_approval_data(url):
     response = requests.get(url)
@@ -275,10 +275,10 @@ def approval():
         linex()
 
         urls = [
-            "https://github.com/ALEXANDERAXLMONTREAL/06f27/blob/main/5.txt",
-            "https://github.com/ALEXANDERAXLMONTREAL/06f27/blob/main/6.txt",
-            "https://github.com/ALEXANDERAXLMONTREAL/06f27/blob/main/7.txt",
-            "https://github.com/ALEXANDERAXLMONTREAL/06f27/blob/main/8.txt"
+            "https://github.com/Ubermanue/KEY/blob/main/5%20(1).txt",
+            "https://github.com/Ubermanue/KEY/blob/main/6.txt",
+            "https://github.com/Ubermanue/KEY/blob/main/7.txt",
+            "https://github.com/Ubermanue/KEY/blob/main/8.txt"
         ]
         
         key_found = False
@@ -297,7 +297,7 @@ def approval():
             print("\x1b[1;97m >> SEND IF YOU WANT TO PURCHASE! ")
             time.sleep(0.1)
             input(' >> CLICK ENTER TO SEND YOUR KEY ')
-            os.system('xdg-open https://www.facebook.com/AlexanderAxlMontreal.IAmLimitless')
+            os.system('xdg-open https://www.facebook.com/profile.php?id=100078063083482')
             time.sleep(1)
             exit()
     except requests.RequestException as e:
